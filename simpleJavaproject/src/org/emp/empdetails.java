@@ -14,12 +14,17 @@ public class empdetails {
 		System.out.println("Employee Tamilvendan is Senoir in office");
 	}
 	
+	public void empnumber() {
+		System.out.println("Employee phone number is 9080468396");
+	}
+	
 	public static void main(String[] args) {
 		
 		empdetails e =new empdetails ();
 		e.empname();
 		e.empid();
 		e.empstatus();
+		e.empnumber();
 		
 
 }
