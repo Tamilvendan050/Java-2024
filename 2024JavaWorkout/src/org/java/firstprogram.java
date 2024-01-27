@@ -9,12 +9,17 @@ public class firstprogram {
 	public void selenium () {
 		System.out.println("This is first program for Selenium");
 	}
+	
+	public void testNG () {
+		System.out.println("This is first program for testNG");
+	}
 
 	public static void main(String[] args) {
 		
 		firstprogram f = new firstprogram ();
 		f.java();
 		f.selenium();
+		f.testNG();
 		
 
 	}
